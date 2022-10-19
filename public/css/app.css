@@ -1,30 +1,33 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa|Righteous');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
 body {
-  background: url(https://images.clipartlogo.com/files/istock/previews/8741/87414357-apple-seamless-pastel-colors-pattern-fruits-texture-background.jpg);
+  background: url(https://i.imgur.com/U6XONdG.png);
   margin: 0;
-  font-family: 'Comfortaa', cursive;
-}
-
-h1 {
-  font-family: 'Righteous', cursive;
-  background: antiquewhite;
-  margin:0;
-  margin-bottom: .5em;
-  padding: 1em;
+  font-family: 'Bangers', cursive;
   text-align: center;
 }
 
+h1 {
+  font-family: 'Bangers', cursive;
+  color: white;
+  background: orangered;
+  margin:0;
+  margin-bottom: .5em;
+  padding: 1em;
+}
+
 a {
-  color: orange;
+  color: greenyellow;
   text-decoration: none;
   text-shadow: 1px 1px 1px black;
   font-size: 1.5em;
-  background: rgba(193, 235, 187, .9);
+  margin: 10px;
+  margin-top: .5em;
+  margin-bottom: .5em;
 }
 
 a:hover {
-  color: ghostwhite;
+  color: orangered;
 }
 
 li {

@@ -1,6 +1,7 @@
 require('dotenv').config() //this lets you read the dotenv file and makes it that we can use it in the rest of the file
+
 // Require modules
-const fs = require('fs') // this engine requires the fs module like we did Saturday
+const fs = require('fs')
 const express = require('express')
 const mongoose = require('mongoose')
 const methodOverride = require('method-override')
@@ -11,7 +12,7 @@ const app = express()
 
 // Configure the app (app.set)
 /*Start Config */
-app.use(express.urlencoded({ extended: true })) //read in form data and need this ti update and delete fruits. This code makes us have req.body on line 55 under the CREATE section
+app.use(express.urlencoded({ extended: true })) //read in form data and need this ti update and delete fruits. This code makes us have req.body on line 55 under the CREATE section - it makes us have req.body. You MUST do this line of code, it's so important, it's callled your body parser middleware. if you do not put this all the way at the top, it's the smarter decision especially as you continue to grow your code repitorie.
 app.use((req, res, next) => {
   res.locals.data = {}
   next()
